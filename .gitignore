@@ -114,3 +114,6 @@ log
 
 # bin files for embeddings
 *.bin
+
+# Images
+images/
