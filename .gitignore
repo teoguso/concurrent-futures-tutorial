@@ -104,7 +104,7 @@ ENV/
 *.csv
 
 # Credentials
-secrets/
+credentials/
 
 # MAC nonsense
 .DS_Store
