@@ -25,12 +25,23 @@ def n_fibonacci(n=10):
     return x
 
 def fake_io(whatevs=None):
-    """Take some time as if it were writing to disk/calling a rest API"""
+    """Take some time as if it were writing to disk/calling a rest API
+    
+    Return input
+    """
 #     long_time = np.random.randint(1,5)
     long_time = .2 + 0.2 * random.random()
     time.sleep(long_time)
     # return "Done with {} after {} secs".format(whatevs, long_time)
     return whatevs
+
+def fetch_datum(some_input):
+    """Just a function faking I/O in"""
+    return fake_io(some_input)
+
+def store_output(some_input):
+    """Just a function faking I/O out"""
+    return fake_io(some_input)
 
 def calc_length(x):
     """Typically x is an int"""
