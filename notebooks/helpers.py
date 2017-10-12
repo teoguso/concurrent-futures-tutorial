@@ -7,7 +7,7 @@ import json
 import logging
 import random
 import time
-from google.cloud import bigquery
+# from google.cloud import bigquery
 
 
 logger = logging.getLogger("helpers.py")
